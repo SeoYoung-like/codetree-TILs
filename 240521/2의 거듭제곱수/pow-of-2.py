@@ -1,4 +1,4 @@
-N = int(input)
+N = int(input())
 
 cnt = 0
 while True:
