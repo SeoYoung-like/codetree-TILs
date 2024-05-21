@@ -6,7 +6,7 @@ for i in range(n*2-1):
         print('*', end=' ')
     print()
 
-    if cnt < n:
+    if i < n-1:
         cnt += 1
     else:
         cnt -= 1
