@@ -17,3 +17,4 @@ else:
                 print('*', end=' ')
             else:
                 print(' ', end=' ')
+        print()
