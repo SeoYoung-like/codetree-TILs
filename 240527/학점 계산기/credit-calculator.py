@@ -8,5 +8,5 @@ if avg >= 4.0:
     print("Perfect")
 elif avg >= 3.0:
     print("Good")
-elif avg < 3.0:
-    pritn("Poor")
+elif:
+    print("Poor")
