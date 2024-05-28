@@ -1,8 +1,11 @@
 pp, p = map(int, input().split())
+arr = list()
 
-print(pp, p, sep=' ', end=' ')
-for _ in range(8):
-    tmp = (pp + p) % 10
-    pp = p
-    p = tmp
-    print(tmp, end=' ')
+arr.append(pp)
+arr.append(p)
+
+for i in range(8):
+    arr.append((arr[i] + arr[i+1]) % 10)
+
+for elem in arr:
+    print(elem, end=' ')
