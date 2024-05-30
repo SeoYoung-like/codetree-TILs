@@ -2,13 +2,9 @@ a, b = map(int, input().split())
 
 arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-while True:
-    division = a // b
-    quot = a % b
-    arr[quot] += 1
-    if division == 0:
-        break
-    a = division        
+while a != 0:
+    arr[a % b] += 1
+    a = a // b
 
 ans = 0
 for elem in arr:
