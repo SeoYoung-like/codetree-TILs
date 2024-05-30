@@ -1,12 +1,11 @@
 a, b = map(int, input().split())
-
-arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+arr = [0] * 10
+ans = 0
 
 while a > 1:
     arr[a % b] += 1
-    a = a // b
+    a //= b
 
-ans = 0
 for elem in arr:
     ans = ans + elem ** 2
 
