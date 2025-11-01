@@ -1,13 +1,9 @@
 N = int(input())
 
-if N % 2 == 0:
-    if N % 5 == 0:
-        print("true")
-    else:
-        print("false")
+if N % 2 == 0 and N % 5 == 0:
+    print("true")    
+elif N % 2 != 0 and N % 3 == 0:
+    print("true")
 else:
-    if N % 3 == 0:
-        print("true")
-    else:
-        print("false")
+    print("false")
     
