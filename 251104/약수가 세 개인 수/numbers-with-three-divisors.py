@@ -1,5 +1,3 @@
-
-
 # 변수 선언 및 입력:
 inp = input()
 arr = inp.split()
