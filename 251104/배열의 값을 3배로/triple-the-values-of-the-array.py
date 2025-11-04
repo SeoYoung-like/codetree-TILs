@@ -6,5 +6,5 @@ for _ in range(3):
 
 for i in range(3):
     for j in range(3):
-        print(matrix[i][j] * 3, end="")
+        print(matrix[i][j] * 3, end=" ")
     print()
